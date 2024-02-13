@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:aliceblue;
+}
+
+.container .logo{
+     font-size: 18px;
+     font-style: bold;
+    color: rgb(39, 13, 207);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:#eeee;
+    padding: 8px;
+    box-shadow: 0px 2px 2px 2px rgb(181, 179, 179);
+}
+#navBar{
+    position:sticky;
+    top: 0;
+}
+
+nav.logo{
+    margin-left: 20px;
+    
+}
+
+ul{
+    margin-right: 46px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+ul li a{
+    margin-inline: 16px;
+    font-size: 20px;
+}
+
+ul li i{
+    font-size: 20px;
+}
+
+ul li #home{
+    color: rgb(18, 18, 214)
+    
+}
+
+ul li a:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+ul li i:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main #mainpg{
+    position: relative;
+    margin-top: 30px;
+}
+
+.main .maintext{
+        margin-top: 110px;
+}
+.maintext img{
+    height: 100px;
+    margin-top: 60px;
+}
+.maintext H1{
+    font-size: 49px;
+}
+.maintext .top{
+    color: rgba(71, 103, 210, 0.64);
+}
+
+/* .maintext #main pg{
+        margin-top: 40px;
+} */
+
+.maintext button{
+    width: 106px;
+    height: 34px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.maintext p{
+    margin-top:16px;
+}
+.maintext button:hover{
+    border: 3px solid black;
+    background-color: transparent;
+    color:rgb(42, 180, 132); 
+
+}
+
+.trending .head{
+    text-align: center; 
+    padding: 30px;
+    margin-top: 20px;
+}
+.head #span{
+    color:darkblue;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+
+}
+
+.card .crd{
+    
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin-inline: 10px;
+    /* padding: 10px; */
+}
+
+
+.card img{
+    width: 100%;
+    padding: 8px;
+    border-radius: 36px;
+}
+    /* For Discount */
+/* .textmain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+.price .discount{
+    display: flex;
+    flex-direction: row;
+}
+.price{
+    column-gap: 10px;
+}
+.crd #shrt2{
+        height: 499px;
+}
+
+.crd #shrt3{
+        height: 500px;
+}
+
+.crd #shrt4{
+        height: 500px;
+}
+
+.crd #jns1{
+        height: 496px;
+}
+
+.crd #jns2{
+        height: 496px;
+}
+
+.crd #jns3{
+    height: 500px;
+
+}
+
+.crd #jns4{
+    height: 500px;
+}
+
+.crdText{
+    margin-left: 28px;
+    padding: 6px;
+}
+
+.crdText button{
+    width: 90px;
+    height: 32px;
+    border: none;
+    background-color: rgba(8, 102, 191, 0.54);
+    color: white;
+    font-size: 14px;
+    margin-top: 8px;
+}
+.crdText i{
+    color:rgb(255,149,0);
+}
+
+.trending .head h1{
+    margin-top: 100px;
+}
+
+.trending .head span{
+    color: blue;
+}
+
+.trend .head span{
+            color: blue;
+}
+
+.blog{
+    /* display: flex; */
+    justify-content:center;
+    height: 260px;
+    width: 400px;
+    background-color: #fff;
+    margin-inline: 20px;
+    border-radius: 8px;
+}
+
+.blog:hover{
+        transition: 0.6s ease;
+        width: 440px;
+        height: 280px;
+
+}
+
+.blog .blogtext p {
+            font-size:17px;
+}
+
+.trend{
+    margin-top: 60px;
+}
+.trend .head h1{
+    text-align: center;
+
+   }
+.trend .head{
+    margin-top: 160px;
+}
+
+.head h1{
+     height: 60px;
+}
+
+.blogtext button{
+            border: 4px solid black;
+            position: relative;
+            margin-top: 10px;
+            font-size: 16px;
+            font-style: normal;
+            
+}
+
+.letter{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(150, 150, 215);
+    padding: 20px;
+    position: relative;
+    margin-top: 480px;
+}
+
+.lettertext h2 {
+            font-size: 28px;
+}
+
+.input{
+    display: flex;
+}
+
+.input input{
+        width: 260px;
+        height: 30px;
+        outline: none;
+        font-size: 16px;
+}
+
+.input button{
+        width: 76px;
+        height: 29px;
+        background-color: aquamarine;
+        color:black;
+        border: none;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+
+.footer .footertext{
+            margin-inline: 60px;
+}
+
+.footertext p{
+    margin-top: 10px;
+}
+
+.footertext #feedback {
+    
+    text-indent: 12px;
+    word-spacing: 1px;
+    font-size: 18px;
+}
+
+.footertext button{
+        position: relative;
+        margin-top: 14px;
+}
